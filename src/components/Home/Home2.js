@@ -4,11 +4,9 @@ import Tilt from "react-parallax-tilt";
 import avatar from "../../Assets/296464238_160217943252728_1762293949206975427_n.jpg"
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+    AiFillInstagram,
   AiFillFacebook
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
