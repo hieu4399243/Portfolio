@@ -25,8 +25,17 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="FPTUPAY-ewallet"
+              description="FPTUPay is an e-wallet project aimed at enhancing services for students at FPT University
+              campuses. The project offers fast and convenient money transfer, deposit, withdrawal, and
+              school fee payment services. It addresses the issue of withdrawing money from FAP to the
+              wallet, allowing the school’s bonuses for students to be directly transferred to the wallet
+              without the need for application or waiting. The project employs microservices and utilizes
+              Java for backend development and JavaScript for mobile and frontend development. The
+              environment is run on Kubernetes (k8s) and includes built-in tools such as Rancher, ELK,
+              Grafana, Longhorn, Kafka, Jenkins, Sonarqube, Argo-cd, Minio, Harbor (Registry), and
+              Debezium to support operations. FPTUPay is poised to provide superior student services and is
+              the first university in Vietnam to have its own e-wallet."
               ghLink="https://github.com/fptupay/mobile-app"
             />
           </Col>
@@ -35,8 +44,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="Toan cham Restaurant"
+              description="Create a beautiful and user-friendly website for a restaurant, where customers can view the
+              menu, choose dishes, choose the menus they want to order and then contact the restaurant via
+              zalo or phone number. phone. The product uses technologies such as HTML, CSS, JavaScript."
               ghLink="https://github.com/hieu4399243/ToanChamRestaurant.git"
               demoLink="http://cosolamcotoancham.me/ToanChamRestaurant/"
             />
@@ -46,10 +57,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Portfolio"
+              description="The website provides personal information, past and ongoing projects, along with the use of tools and languages that have been and are being used. The website is written in ReactJS language with the combination of libraries for integration and to solve the requirements of the problem."
+              ghLink="https://github.com/hieu4399243/Portfolio.git"
             />
           </Col>
 
@@ -57,8 +67,14 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              title="Sportify app"
+              description="- Building beautiful User Interfaces with React Native
+              - Spotify API integration
+              - Integrating GraphQL with StepZen
+              - Custom app development for music streaming
+              - Implementing favorites and playlists
+              - Creating a music player for song previews
+              - Designing and implementing a flexible and efficient API using GraphQL and StepZen"
               ghLink="https://github.com/hieu4399243/SpotifyVersion2.git"
             />
           </Col>
@@ -67,8 +83,8 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              title="Dating app"
+              description="Full Stack Dating App development journey with REACT NATIVE! 🚀 In this live coding session, we'll embark on a thrilling adventure of creating a feature-rich dating application using the power of React Native, MongoDB, and Socket IO."
               ghLink="https://github.com/hieu4399243/Dating-app.git"
             />
           </Col>
@@ -77,9 +93,8 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              title="Order Pizza app"
+              description="Full Stack Mobile Development .Combining React Native and Supabase, mastering the necessary skills to create strong and scalable mobile applications. Building a Food Ordering Application with a beautiful Frontend and powerful backend.."
               ghLink="https://github.com/hieu4399243/Pizza.git"
             />
           </Col>
